@@ -2,7 +2,7 @@ This is the back end of my assessment, written in Java 8 using Spring. I use Spr
 
 There are three RESTful end points. All queries must include the Content-Type application/json header:
 
-POST https://pulcher.serveo.net/api/auth/signup
+POST https://veritas.serveo.net/api/auth/signup
 which requires the following JSON example:
 {
 	"name":"Test",
@@ -11,14 +11,14 @@ which requires the following JSON example:
 	"email":"a@b.com"
 }
 
-POST https://pulcher.serveo.net/api/auth/signin
+POST https://veritas.serveo.net/api/auth/signin
 which requires the following JSON example:
 {
 	"username":"Test",
 	"password":"Test123"
 }
 
-GET https://pulcher.serveo.net/api/provider?max_discharges=5&min_discharges=6&max_average_covered_charges=50000
+GET https://veritas.serveo.net/api/provider?max_discharges=5&min_discharges=6&max_average_covered_charges=50000
 &min_average_covered_charges=40000&min_average_medicare_payments=6000
 &max_average_medicare_payments=10000&state=GA&required_fields=Provider Name
 
